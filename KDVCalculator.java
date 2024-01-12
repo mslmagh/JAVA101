@@ -14,11 +14,6 @@ public class KDVCalculator {
 
         System.out.println();
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-    
      
     }
 
