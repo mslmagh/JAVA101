@@ -7,6 +7,7 @@ public class KDVCalculator {
         double a = scan.nextDouble();
         System.out.println("Your money with KDV: " + (a*118/100));
         System.out.println();
+        System.out.println();
     }
 
 }
