@@ -8,9 +8,7 @@ public class TaxiMeter {
         System.out.print("Enter the km: ");
         perKm = scan.nextInt();
         double payment = perKm * 2.20 + startPrize;
-        if (payment < 20)
-            System.out.println("The payment is: 20 TL");
-        else
-            System.out.println("The payment is: " + payment + " TL");
+        payment = (payment < 20) ? 20 : payment;
+        System.out.println(payment);
     }
 }
