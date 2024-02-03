@@ -1,6 +1,7 @@
-public class findNearestValues {
+public class FindNearestValues {
     public static void main(String[] args) {
         int[] arr = { 1, 10, 11, -30, 3 };
+        
         getMax(arr, 5);
 
     }
